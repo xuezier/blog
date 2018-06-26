@@ -17,12 +17,12 @@ gRPC 基于 HTTP/2 标准设计，带来诸如双向流、流控、头部压缩�
 最近转向 typescript 做 node 开发， 基于 express 的 mvc 服务框架涉及到与其他语言服务进程通信，于是就把之前用 javascript 写的 grpc 包装重新用 typescript 写了一遍。
 
 grpc-ts 分为两个包，一个服务端用的，一个客户端用的, 点击可跳转到 GitHub:
-* <a href='https://github.com/xuezier/grpc-server-ts'>grpc-server-ts</a>
-* <a href='https://github.com/xuezier/grpc-client-ts'>grpc-client-ts</a>
+* [grpc-server-ts](https://github.com/xuezier/grpc-server-ts)
+* [grpc-client-ts](https://github.com/xuezier/grpc-client-ts)
 
 ## 使用
 这里是配合基于 express 的 typescript-mvc 框架 *mvc-ts* 使用的。
-* <a href='https://github.com/xuezier/ts-mvc'>mvc-ts</a>
+* [mvc-ts](https://github.com/xuezier/ts-mvc)
 
 ### 定义统一的 proto 文件
 hello.proto
