@@ -26,7 +26,7 @@ grpc-ts 分为两个包，一个服务端用的，一个客户端用的, 点击�
 
 ### 定义统一的 proto 文件
 hello.proto
-```proto
+```protobuf
 syntax = "proto3";
 
 option java_multiple_files = true;
