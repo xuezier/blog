@@ -22,6 +22,7 @@ grpc-ts 分为两个包，一个服务端用的，一个客户端用的
 ## 使用
 这里是配合基于 express 的 typescript-mvc 框架 *mvc-ts* 使用的。
 * mvc-ts
+
 ### 定义统一的 proto 文件
 hello.proto
 ```proto
