@@ -5,7 +5,7 @@ tags:
   - typescript
   - grpc
 ---
-![](http://ofn8y0v16.bkt.clouddn.com/grpc.png)
+![](http://cdn-public.imxuezi.com/grpc.png)
 ## 前言
 gRPC  是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP 和 C# 支持.
 
@@ -155,4 +155,4 @@ ts-node 我是用的 4.x 的版本
   "word": "hello world"
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/grpc-result.png)
+![](http://cdn-public.imxuezi.com/grpc-result.png)

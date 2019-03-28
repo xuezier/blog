@@ -10,7 +10,7 @@ tags:
 
 ## 准备
 绘制像素化图像，我们先要将形象进行像素化，将像素化后的点阵图像描述出来，就是颜色矩阵
-![](http://ofn8y0v16.bkt.clouddn.com/pikatu.png)
+![](http://cdn-public.imxuezi.com/pikatu.png)
 
 为此，我们先分析图像上的颜色，共有四种颜色 #fefe00(黄), #823e00(褐), #c69(红), #000(黑)
 

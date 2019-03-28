@@ -108,16 +108,16 @@ scss 代码：
 }
 ```
 鼠标悬停时，会产生如下效果
-![](http://ofn8y0v16.bkt.clouddn.com/css-animation01.gif)
+![](http://cdn-public.imxuezi.com/css-animation01.gif)
 
 打开 chrome 浏览器的 timeline 观看整个动画绘制情况
-![](http://ofn8y0v16.bkt.clouddn.com/animate04.png)
+![](http://cdn-public.imxuezi.com/animate04.png)
 
 从 range 可以看出 redering 和 painting 所花费的时间情况，整个动画稳定在 55-60 fps 左右。这是在配置较好的笔记本上的情况，尝试在
 较为旧款的设备上查看，有时会降为 40 fps 左右，略有卡顿。
 
 容器宽度（width）动画流程大致如下：
-![](http://ofn8y0v16.bkt.clouddn.com/design01.png)
+![](http://cdn-public.imxuezi.com/design01.png)
 
 左线程为主线程，右线程为合成线程
 
@@ -185,15 +185,15 @@ scss 代码：
 }
 ```
 同样打开 chrome 浏览器的 timeline 观看整个动画绘制情况
-![](http://ofn8y0v16.bkt.clouddn.com/animate01.png)
+![](http://cdn-public.imxuezi.com/animate01.png)
 
 会发现 rendering 和 painting 的时间都缩短了。
-![](http://ofn8y0v16.bkt.clouddn.com/animate03.png)
+![](http://cdn-public.imxuezi.com/animate03.png)
 
 同时在时间轴上可以看到最大可以达到 90 几 fps（有时可以达到100以上）
 
 容器宽度（width）动画流程大致如下：
-![](http://ofn8y0v16.bkt.clouddn.com/design02.png)
+![](http://cdn-public.imxuezi.com/design02.png)
 
 我们可以看到少了很多主线成与合成线程之间的交换，意味着动画变得更流畅了。
 

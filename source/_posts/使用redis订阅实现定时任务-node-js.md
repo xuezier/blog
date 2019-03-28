@@ -6,7 +6,7 @@ tags:
   - javascript
   - node.js
 ---
-![](http://ofn8y0v16.bkt.clouddn.com/redis.png)
+![](http://cdn-public.imxuezi.com/redis.png)
 
 ## 条件
 安装的redis版本至少为2.8.0，查看redis版本

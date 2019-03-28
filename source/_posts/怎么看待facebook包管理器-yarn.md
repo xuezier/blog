@@ -4,7 +4,7 @@ date: 2016-10-26 11:29:47
 tags:
   - yarn
 ---
-![](http://ofn8y0v16.bkt.clouddn.com/Yarn-796x398.jpg)
+![](http://cdn-public.imxuezi.com/Yarn-796x398.jpg)
 
 Yarn 是一个Facebook推出的新的包管理器，用于替代现有的 npm 客户端或者其他兼容 npm 仓库的包管理工具。Yarn 保留了现有工作流的特性，优点是更快、更安全、更可靠。
 

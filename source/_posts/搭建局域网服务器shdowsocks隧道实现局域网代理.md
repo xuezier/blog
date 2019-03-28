@@ -5,7 +5,7 @@ tags:
   - shadowsocks
   - net
 ---
-![](http://ofn8y0v16.bkt.clouddn.com/netssocks.png)
+![](http://cdn-public.imxuezi.com/netssocks.png)
 
 技术公司经常需要通过科学上网去查询英文资料或高速上网，在公司每人配置一个账号又显得浪费。通过搭建局域网服务器，
 在局域网服务器上搭建 shadowsocks 隧道代理，让每台电脑通过这台局域网服务器上网，就可以只用一个账号实现公司员工集体翻墙搞事情。

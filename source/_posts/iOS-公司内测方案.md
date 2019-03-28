@@ -9,6 +9,6 @@ App 的搭建正在如火如荼的进行中，每天都有新的 build 版本产
 ios 的 release 版本部署除了开发者可以任意部署外，要部署到其他人的手机上，需要进行设备的 udid 登记。
 
 获取 iPhone 的 udid 可以通过 iTunes 拿到。具体如图。
-![](http://ofn8y0v16.bkt.clouddn.com/QQ20170520-201357@2x.png)
+![](http://cdn-public.imxuezi.com/QQ20170520-201357@2x.png)
 
-![](http://ofn8y0v16.bkt.clouddn.com/QQ20170520-201421@2x.png)
+![](http://cdn-public.imxuezi.com/QQ20170520-201421@2x.png)

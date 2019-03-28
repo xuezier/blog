@@ -39,7 +39,7 @@ border-radius 的值是绝对像素数值 apx(px是单位像素) 的时候，切
 <div class='square'></div>
 <div class='square radius'></div>
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius01.png)
+![](http://cdn-public.imxuezi.com/radius01.png)
 
 当 apx 为正方形 div 边长的一半时，div 正好是一个正圆
 ```css
@@ -47,7 +47,7 @@ border-radius 的值是绝对像素数值 apx(px是单位像素) 的时候，切
 	border-radius: 100px;
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius02.png)
+![](http://cdn-public.imxuezi.com/radius02.png)
 
 apx 的最大值是元素边长的一半, 当 apx 超过一半时，将自动取边长的一半
 ```css
@@ -55,7 +55,7 @@ apx 的最大值是元素边长的一半, 当 apx 超过一半时，将自动取
 	border-radius: 150px;
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius02.png)
+![](http://cdn-public.imxuezi.com/radius02.png)
 
 如果 div 是一个长方形，那么 border-radius 的取值最大是最短边的一半
 ```html
@@ -74,7 +74,7 @@ apx 的最大值是元素边长的一半, 当 apx 超过一半时，将自动取
 <div class='square'></div>
 <div class='square radius'></div>
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius03.png)
+![](http://cdn-public.imxuezi.com/radius03.png)
 
 ```css
 .square{
@@ -85,14 +85,14 @@ apx 的最大值是元素边长的一半, 当 apx 超过一半时，将自动取
 	display:inline-block
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius04.png)
+![](http://cdn-public.imxuezi.com/radius04.png)
 
 ## border-radius 百分比值
 现代浏览器为 border-radius 加入了半分比值的支持。半分比值生成的圆角边框，是从元素顶点处，往两个邻边取出边长的一半的半分比长度所确定的椭圆的 1/4 弧边
 首先我们了解，标准椭圆的确定概念
 
 椭圆（Ellipse）是平面内到定点F1、F2的距离之和等于常数（大于|F1F2|）的动点P的轨迹，F1、F2称为椭圆的两个焦点。其数学表达式为：|PF1|+|PF2|=2a（2a>|F1F2|）。
-![](http://ofn8y0v16.bkt.clouddn.com/border-radius.jpg)
+![](http://cdn-public.imxuezi.com/border-radius.jpg)
 
 ```html
 <style>
@@ -110,7 +110,7 @@ apx 的最大值是元素边长的一半, 当 apx 超过一半时，将自动取
 <div class='square'></div>
 <div class='square radius'></div>
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius05.png)
+![](http://cdn-public.imxuezi.com/radius05.png)
 
 F1, F2 的位置是浏览器给出，因此很难说其切面弧角的大小。
 
@@ -120,14 +120,14 @@ F1, F2 的位置是浏览器给出，因此很难说其切面弧角的大小。
 	border-radius: 50%;
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius06.png)
+![](http://cdn-public.imxuezi.com/radius06.png)
 
 ```css
 .radius{
 	border-radius: 80%;
 }
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius06.png)
+![](http://cdn-public.imxuezi.com/radius06.png)
 
 ## 多个参数
 border-radius 支持传入多个参数进行设置圆角边框，只有一个参数时表示4个角的圆角是一样的，多个参数时即为每个角单独设置，顺序是：左上，右上，右下，左下
@@ -147,4 +147,4 @@ border-radius 支持传入多个参数进行设置圆角边框，只有一个参
 <div class='square'></div>
 <div class='square radius'></div>
 ```
-![](http://ofn8y0v16.bkt.clouddn.com/radius07.png);
+![](http://cdn-public.imxuezi.com/radius07.png);
